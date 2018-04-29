@@ -7,7 +7,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2 className="App-title">AWS GOBBLER</h2>
+          <div className="App-header-nav">
+          <ul>
+					  <li><span>我的待吃</span></li>
+					  <li><span>網紅推薦</span></li>
+					  <li><span>我的網紅</span></li>
+				  </ul>
+          </div>
+          <h2 className="App-brandname">AWS GOBBLER</h2>
+          <p>Share, find and enjoy.</p>
         </header>
       </div>
     );
