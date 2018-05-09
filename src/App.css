@@ -1,30 +1,12 @@
 .App {
   text-align: center;
+  height: 100%;
 }
+
 .App-header {
-  /* background-color: #222; */
+  background-color: #222;
   color: white;
   font-size: 1.25rem;
   margin: 0;
-  padding: 1rem;
-  background: url(resource/image/landing_page.jpg) center;
-  background-size: cover;
-  height: 100%;
-}
-.App-brandname {
-  font-size: 99px;
-  font-family: 'Cabin Sketch', cursive;
-}
-
-.App-header-nav ul {
-	margin: 0 auto;
-}
-
-.App-header-nav  li {
-	float: left;
-	list-style-type: none;
-	padding: 13px;
-	cursor: pointer;
-	color: #fff;
-	font-size: 19px
+  /* padding: 1rem; */
 }

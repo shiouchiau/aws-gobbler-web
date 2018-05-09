@@ -1,0 +1,24 @@
+.nav-link {
+  height: 35px;
+  padding: 15px;
+  width: 100%;
+  background-color: rgba(70, 62, 62, 0.5);
+  color: white;
+  font-size: 1.25rem;
+  margin: 0;
+  position: fixed;
+}
+
+.nav-link ul {
+   margin: 0 auto;
+}
+
+.nav-link  li {
+    float: right;
+    list-style-type: none;
+    padding: 6px;
+    margin-right: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px
+}

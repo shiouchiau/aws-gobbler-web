@@ -1,0 +1,78 @@
+.nav {
+    /* background-color: #222; */
+    color: white;
+    font-size: 1.25rem;
+    margin: 0;
+    /* padding: 1rem; */
+    background: url(../../resource/image/landing_page.jpg) center;
+    background-size: cover;
+  }
+
+.nav-navigator {
+   height: 35px;
+   padding: 15px;
+   width: 100%;
+   background-color: rgba(70, 62, 62, 0.5);
+}
+
+.nav-navigator ul {
+   margin: 0 auto;
+}
+
+.nav-navigator  li {
+    float: right;
+    list-style-type: none;
+    padding: 6px;
+    margin-right: 25px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px
+}
+
+  .nav-brandname {
+    font-size: 64px;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center; */
+    position: relative;
+    top: 20%;
+  }
+
+  .nav-brandname h2 {
+      margin-bottom: 0;
+  }
+
+  .nav-search-bar {
+    padding: 5px;
+    /* max-width: 850px; */
+    margin: 0 15%;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    height: 35px;
+  }
+
+  .nav-search-bar > * {
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .nav-search-bar select {
+    width: 180px;    
+    flex:1;
+  }
+
+  .nav-search-bar input {
+    width: 580px;  
+    flex:3;
+  }
+
+  .nav-search-bar button {
+    margin-left: 5px;
+    background-color: rgb(208, 159, 159, 0.95);
+    cursor: pointer;
+  }
+
